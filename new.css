@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#page1 {
+    width: 100%;
+    height: 100%;
+   background-size: cover;
+   background-position: center;
+    animation: changeBg 15s infinite linear; /*15 sec is the duration of animation not the dealy*/
+
+}
+/*here we defineed the keyframe for background change*/
+@keyframes changeBg {
+    /*here is the time frame*/
+    0% { background-image: url('https://omo-oss-image.thefastimg.com/portal-saas/new2024022618373269855/cms/image/29b4820d-7b9a-451f-bbf9-dd67162ca5d8.jpg'); }
+    33% { background-image: url('https://omo-oss-image.thefastimg.com/portal-saas/new2024022618373269855/cms/image/464af708-adf2-428b-b0ac-1df1e11c1ca5.jpg'); }
+    66% { background-image: url('https://omo-oss-image.thefastimg.com/portal-saas/new2024022618373269855/cms/image/0416e81b-a780-43f6-be2f-2d4544f949c6.jpg'); }
+    100% { background-image: url('https://omo-oss-image.thefastimg.com/portal-saas/new2024022618373269855/cms/image/63b91710-4ffa-4c74-866e-d9638b6c8941.jpg'); }
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+#fake{
+    width: 100%;
+    height: 10%;
+}
+#header:hover{
+    background-color: antiquewhite;
+   
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo h4{
+    margin-left: 50px;
+    font-style: oblique;
+    font-size: large;
+}
+#logo img{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 25px;
+    height: 70px;
+}
+#text1{
+    align-items: center;
+    margin-left: 25%;
+    display: flex;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.text a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(18, 19, 19);
+}
+#icons{
+    margin-left: 100px;
+}
+#lan{
+    width: 120px;
+    padding: 6px;
+    border-radius: 10px;
+}
+#content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    
+}
+#box2{
+    width: 50%;
+    margin-bottom: 60px;
+    font-style: italic;
+    font-size: large;
+    padding: 80px;
+}
+#box2 p{
+    margin-left: 0px;
+}
+#page2{
+    padding: 250px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://omo-oss-image.thefastimg.com/portal-saas/new2024022618373269855/cms/image/0416e81b-a780-43f6-be2f-2d4544f949c6.jpg');
+    border-bottom-right-radius: 400px;
+}
+#page2 h1,p{
+    font-style: italic;
+    margin-left: -70px;
+}
+#page2 h1{
+    font-style: italic;
+    font-size: 35px;
+}
+#page2 p{
+    font-size: 20px;
+}

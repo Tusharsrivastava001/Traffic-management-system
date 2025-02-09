@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQTt1dqiSq4lkaf7JoIxGrBTUW9qcqLH5Jjg&s" alt="">
+            <h1>Traffic management System</h1>
+        </div>
+        <div id="content">
+            <div id="box1">
+                <form action="store.php" method="post" id="loginform">
+                    <h2>User Login</h2>
+                    <br><br>
+                    <!--Here is the Name-->
+                    <input type="text" name="username" id="username" placeholder="Enter the username" required>
+                    <br><br>
+                    <input type="password" name="password" id="password" placeholder="Enter the password" required>
+                    <br><br>
+                    <p id="error-message" style="color: rgb(240, 49, 49); font-weight: bold;"></p>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+        <div id="footer"><h4>Thanks for using our Traffic management System</h4></div>
+    </div>
+    <script src="hello.js"></script>
+</body>
+</html>

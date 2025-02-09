@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    font-family: cursive;
+    font-size: medium;
+    width: 100%;
+    height: 10%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header img{
+    width: 80px;
+    height: 70px;
+    margin-right: 70px;
+}
+#content{
+    position: relative;
+    background: url(https://omo-oss-image.thefastimg.com/portal-saas/new2024022618373269855/cms/image/58d774e5-b6be-4fb0-a83f-2784a8077db9.jpg) 
+    no-repeat center center/cover; 
+    /*here is the method to include the image in the background directly
+    no-repeat center center/cover
+    */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1{
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 25px;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 100;
+}
